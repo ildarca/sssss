@@ -1,0 +1,186 @@
+
+html, body {
+    height: auto;
+
+}
+
+body
+{
+    
+    padding: 0;
+    margin:0;
+    color: black;
+    font-size: 15px;
+    /*font-family: 'Montserrat', serif;*/
+    font-weight: 400;
+    background: linear-gradient(100deg, #FC8A8A, #2447c7) no-repeat;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    
+    width: 1181px;
+    margin: 0 auto;
+
+}
+
+.header
+{
+    padding: 57px;
+}
+
+header a
+{
+    color: black;
+}
+
+.logo
+{
+    margin-right: 361px;
+}
+
+.menu
+{
+    display: flex; /*фиксирует в одну линию*/
+}
+
+.menu li a
+{
+    text-decoration:none; 
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight:bold;
+}
+.menu li
+{
+    margin-right: 50px;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+}
+
+.container
+{
+    
+    width: 1181px;
+    
+
+}
+
+.box1
+{
+    margin-top: 33px;
+}
+.box1 img
+{
+    
+    width: 1120px;
+}
+
+
+.IT
+{
+    margin-top: 13px;
+    width: 587px;
+    height: 170px;
+    background: linear-gradient(100deg, #0094FF, #FF7DBC) no-repeat;
+    border-radius: 45px;
+    box-shadow: 2px 2px 20px rgb(247, 247, 247);
+}
+
+.IT h1{
+    
+    font-style: normal;
+    margin-left: 44px;
+    font-weight: bold;
+    font-size: 61.3357px;
+    line-height: 75px;
+}
+
+
+
+
+
+.Textbox
+{
+    float: left;
+    margin-right: 90px; /* Обтекание по правому краю */
+}
+
+.video {
+    margin-top: 20px;
+    float: left; /* Обтекание по правому краю */
+   }
+
+.video video
+   {
+       box-shadow: 5px 4px 40px rgb(253, 253, 253);
+       background: black;
+       border-radius: 48px;
+}
+
+.oprIT
+{
+    
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-left: 21px;
+    margin-right: 20 px;
+    width: 567px;
+    height: 120px;
+    background: linear-gradient(100deg, #FF7DBC, #0094FF) no-repeat;
+    border-radius: 45px;
+    box-shadow: 5px 4px 20px rgb(255, 255, 255);
+}
+
+.oprIT p
+{
+    margin-right: 1 px;
+    width: 567px;
+    height: 127px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+} 
+
+.Textbox2
+{
+    padding-top: 5px;
+    padding-left:20px;
+    margin-left: 200px;
+    margin-top: 400px;
+    
+    width: 567px;
+    height: 220px;
+    background: linear-gradient(100deg, #FF7DBC, #0094FF) no-repeat;
+    border-radius: 45px;
+    box-shadow: 5px 4px 20px rgb(255, 255, 255);
+}
+
+.Textbox2 .tb1
+{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 49px;
+}
+
+.Textbox2 .tb2 
+{
+    margin-left: 190px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 49px;
+} 
